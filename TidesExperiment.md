@@ -75,5 +75,5 @@ plot(M2K1,xlim = c(0,300),type = "l", main = "M2 + K1",col = "red",xlab="Tiempo 
 ![Figura 1: Representación de suma de armónicos mareales][id2]
 
 
-[id2]: Suma_de_Armonicos.png
+[id2]: Imagenes/Suma_de_Armonicos.png
 
