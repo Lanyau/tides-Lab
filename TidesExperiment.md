@@ -1,23 +1,16 @@
 
 # Creación de Armómincos Mareales a partir de Ecuacón de Ondas Mecánicas
 
-#Primer Cambio que hago
 
-#Secuencia de mediciones en tiempo
 
 ```
+#Secuencia de mediciones en tiempo
 j=1:500
 ```
-
-
-
-#Todos los armónicos fueron generados con amplitud 1 y fase igual a 45 grados o
-# pi/4 radianes 
+Todos los armónicos fueron generados con amplitud 1 y fase igual a 45 grados o
+ pi/4 radianes 
 
 ```
-
-
-
 #Principal Lunar  M2
 M2=function(j){
   r=1*cos((((2*pi)/12.42)*j)+(pi/4))
@@ -46,10 +39,11 @@ return(r)}
 
 ```
 
-#Se divide la ventana en 8 subdivisions 
+Se divide la ventana en 8 subdivisiones para crear 8 plots de los armónicos 
+mareales generados
 
-
-
+```
+par(mfrow=c(4,2))
 plot(K1, 0, 300, main = "Luni solar Diurnal  K1",col = "red",xlab="Tiempo (horas)",lwd=2)
 
 plot(M2, 0, 300, main = "Principal Lunar  M2",col = "red",xlab="Tiempo (horas)",lwd=2)
@@ -72,3 +66,8 @@ plot(K1O1+M2S2,xlim = c(0,300),type = "l", main = "K1O1 + M2S2",col = "red",xlab
 #M2 +K1
 M2K1=M2(j)+K1(j)
 plot(M2K1,xlim = c(0,300),type = "l", main = "M2 + K1",col = "red",xlab="Tiempo (horas)",lwd=2)
+```
+
+![**Figura 1:** Representación de suma de armónicos mareales](Suma de armónicos mareales.jpeg)
+
+
