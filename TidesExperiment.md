@@ -1,5 +1,5 @@
 
-# Creación de Armómincos Mareales a partir de Ecuacón de Ondas Mecánicas
+# Creación de Armómincos Mareales a partir de Ecuación de Ondas Mecánicas
 
 
 
