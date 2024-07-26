@@ -68,6 +68,6 @@ M2K1=M2(j)+K1(j)
 plot(M2K1,xlim = c(0,300),type = "l", main = "M2 + K1",col = "red",xlab="Tiempo (horas)",lwd=2)
 ```
 
-![**Figura 1:** Representación de suma de armónicos mareales](Suma de armónicos mareales.jpeg)
+![Figura 1: Representación de suma de armónicos mareales](Suma de armónicos mareales.jpeg)
 
 
