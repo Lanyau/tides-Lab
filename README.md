@@ -9,3 +9,5 @@ Esto nos va a permitir implemetar esa fórmula para simular ondas mecánicas con
 los datos el como se generan onas nuevas con patrones de periocidad más complejos a partir de la suma de ondas con una periodicidad determinada.
 
 
+Puedes consultar el ejemplo en el archivo [TidesExperiment.md](https://github.com/Lanyau/tides-Lab/blob/main/TidesExperiment.md)
+
